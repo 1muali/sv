@@ -30,5 +30,7 @@ app.use(express.favicon());
 // routes should be at the last
 app.use(app.router);
 
+app.use(express.static(__dirname + '/public'));
+
 });
 }

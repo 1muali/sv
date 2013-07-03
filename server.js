@@ -19,5 +19,5 @@ console.log('[SERVER.JS] Listening on port '.green + port.toString().underline.g
 io.listen(app.listen(port));
 console.log('[SERVER.JS] Started Socket.IO'.green);
 
-console.log('[SERVER.JS] EVERYTHING STARTED CORRECTLY'.rainbow);
+console.log('\n[SERVER.JS] EVERYTHING STARTED CORRECTLY\n'.rainbow);
 
